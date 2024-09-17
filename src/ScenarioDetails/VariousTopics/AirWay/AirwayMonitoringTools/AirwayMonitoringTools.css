@@ -1,0 +1,49 @@
+/* AirwayMonitoringTools.css */
+.airway-monitoring-tools {
+    margin: 2rem;
+    /* max-width: 1200px; */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  .airway-monitoring-tools h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+  /*  */
+  
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  
+  .tool-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tool-image {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .tool-name {
+    font-size: 1.5em;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  .tool-description {
+    color: #555;
+    line-height: 1.6;
+  }  

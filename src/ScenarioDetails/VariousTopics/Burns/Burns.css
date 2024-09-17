@@ -1,0 +1,386 @@
+/* Entire container */
+.burn-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #080000;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+    
+}
+
+.explainer {
+  width: 130px;
+  border-radius: 50%;
+  float: right;
+  padding: 20px;
+}
+
+.explainerlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  float: right;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+/* END */
+
+.burn-header {
+    margin-left: 3rem;
+    padding: 5px;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #f1bb07;
+    text-align: center;
+}
+
+.burn-header:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.burn-body{
+  background-color: #f5f5f5;
+  padding: 20px;
+
+}
+
+.burn-overview {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.burn-overview h2 {
+
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #4b4b4b;
+    text-decoration: underline;
+}
+
+.burn-overview p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #0a0000;
+}
+
+.burn-overview ul {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #888888;
+}
+
+.burn-overview li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #09c6f5;
+}
+
+/* BURN TYPES */
+.burn-types-container{
+    margin: 0rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fffdfd;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+
+  .burn-types {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 100%;
+  }
+
+  .burn-type {
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 100%;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+
+  .burn-type h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #03664d;
+  }
+
+  .burn-type p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #0a0000;
+    background-color: azure;
+    border-radius: 20px;
+    padding: 30px;
+  }
+
+  .burn-type h4 {
+    font-size: 1.3rem;
+    color: #747201;
+  }
+
+  .burn-type ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .burn-type li {
+    font-size: 1.3rem;
+    padding: 4px;
+    color: #021a35;
+  }
+/* BURN TYPES */
+
+/* Classification */
+.burn-classification-container{
+    margin: 2rem;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+
+  .burn-classification-container h2 {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #4b4b4b;
+    text-decoration: underline;
+  }
+
+  .burn-classification-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #0a0000;
+  }
+
+  .burn-classifications {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 100%;
+  }
+
+  .burn-classification {
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 100%;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+
+  .burn-classification h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #03664d;
+  }
+
+  .burn-classification p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #0a0000;
+    background-color: azure;
+    border-radius: 20px;
+    padding: 30px;
+  }
+
+  .burn-classification h4 {
+    font-size: 1.3rem;
+    color: #747201;
+  }
+
+  .burn-classification ul {
+    display: grid;
+    gap: 10px;
+  }
+
+  .burn-classification li {
+    font-size: 1.3rem;
+    padding: 4px;
+    color: #021a35;
+  }
+/* Classification */
+
+/* Assessment */
+.burn-assessment-container{
+    margin: 2rem;
+    margin-bottom: 3rem;
+    max-width: 95%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fdfcfc;
+    border: 2px solid rgb(233, 233, 233);
+    border-radius: 20px;
+  }
+
+  .burns{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+  }
+
+  .burn-assessment-container h2 {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #4b4b4b;
+    text-decoration: underline;
+  }
+
+  .burn-assessment-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #0a0000;
+  }
+
+  .burn-assessment-container ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .burn-assessment-container li {
+    font-size: 1.3rem;
+    padding: 4px;
+    color: #021a35;
+  }
+
+  .burn-assessments {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 100%;
+  }
+
+  .burn-assessment {
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 100%;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+
+  .burn-assessment h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #03664d;
+  }
+
+  .burn-assessment p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #0a0000;
+    background-color: azure;
+    border-radius: 20px;
+    padding: 30px;
+  }
+
+  
+
+  .burn-assessment ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .burn-assessment li {
+    font-size: 1.3rem;
+    padding: 4px;
+    color: #021a35;
+  }
+/* Assessment */
+/* RULE OF NINES AND LUND CHART --START-- */
+.tip-container {
+    background-color: #f9f9f9;
+    border-left: 4px solid #007bff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tip-text {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+  }  
+/* RULE OF NINES AND LUND CHART --END-- */
+
+/* Burn images */
+
+.burnimage-container{
+  margin: 2rem;
+  margin-bottom: 3rem;
+  max-width: 100%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.burnimage-pictures h1{
+  text-align: center;
+}
+
+.burnimage-pictures p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #0a0000;
+  text-align: center;
+}
+
+.each-burnimage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 100%;
+}
+
+.single-image {
+  background-color: #fff;
+  padding: 2rem;
+  max-width: 100%;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.single-image h2 {
+  color: rgb(5, 116, 116);
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.single-image p {
+  line-height: 1.3;
+  color: rgb(1, 15, 15);
+  background-color: rgb(253, 225, 206);
+  padding: 50px;
+  border: 1px solid rgb(114, 3, 3);
+  border-radius: 30px;
+
+}

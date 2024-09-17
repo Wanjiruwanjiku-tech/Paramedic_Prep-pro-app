@@ -1,0 +1,55 @@
+/* AirwayComplications.css */
+.airway-complications {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .airway-complications h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .airway-complications section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .airway-complications section:last-child {
+    border-bottom: none;
+  }
+  
+  .airway-complications h2 {
+    font-size: 1.5em;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  .airway-complications p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  
+  .summary-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+  }
+  
+  .summary-section h2 {
+    color: #495057;
+  }
+  
+  .summary-section p {
+    color: #495057;
+    font-weight: bold;
+  }
+  

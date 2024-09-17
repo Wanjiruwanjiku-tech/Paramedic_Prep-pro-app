@@ -1,0 +1,160 @@
+.basics-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    background-color: #fcfcfa;
+}
+h2 {
+    color: black;
+}
+.basics-img {
+    width: 50%;
+    height: 500px;
+}
+
+.basics-image {
+    margin-left: 3rem;
+    margin-top: 1.7rem;
+}
+
+.basics-btn {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.basics-btn:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.basics-btn:hover:after {
+  transform: translate(0, 0);
+}
+
+.basics-btn:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.basics-btn:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .basics-btn {
+    padding: 0 40px;
+  }
+  .basics-header {
+    font-size: 2.5rem;
+  }
+}
+
+.basics-header {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: #252305;
+    -webkit-background-clip: text;
+    background-clip: text;
+    border-bottom: 2px solid #ebebe9;
+    border-radius: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .basics-body {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #252305;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .basics-subs {
+    border-top: 1px solid #ebebe9;
+    border-bottom: 1px solid #ebebe9;
+    padding: 1rem;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #252305;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    max-width: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 50px;
+  }
+
+  span {
+    font-weight: 600;
+    color:rgb(5, 43, 30)
+  }
+
+  .basics-subs h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #f07511;
+    margin-bottom: 1rem;
+  }
+
+  .basics-subs h4 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #d8cd2f;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+  }
+
+  .basics-subs p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #252305;
+    margin-bottom: 1rem;
+  }
+
+  .basics-subs ol li{
+    padding: 10px;
+  }
+
+  .basics-fin {
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: #999127;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    max-width: 80%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }

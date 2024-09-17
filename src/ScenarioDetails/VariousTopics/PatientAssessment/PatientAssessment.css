@@ -1,0 +1,234 @@
+/* Assessment Container */
+.assess-container {
+    margin: 2rem;
+    /* max-width: 1200px; */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+.assess-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.assess-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+/* Dropdown container */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dropdown {
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 4rem;
+
+}
+
+/* Dropdown button */
+.dropdown-button {
+    background-color: #faf61c;
+    color: rgb(12, 19, 1);
+    padding: 20px 20px;
+    font-size: 26px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-button:hover {
+    background-color: #68ffe6;
+    transition: 1s;
+}   
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fafce9;
+    font-size: large;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+/* Show the dropdown content when the button is clicked */
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* Ordered list styling */
+.dropdown-content ol {
+    padding-left: 20px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.dropdown-content li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.dropdown-content li:hover {
+    background-color: #d1ffc6;
+    color: #1c4103;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown-content ol ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    margin-top: 5px;
+}
+
+.dropdown-content ol ul li {
+    margin-bottom: 5px;
+}
+
+/* Assessment Container */
+
+.patient-assessment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.assessment-title h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #0f0101;
+    margin: 0;
+}
+
+.assessment-title img {
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.assessment-title {
+    /* margin-bottom: 3rem; */
+    border-bottom: 2px solid rgb(119, 118, 118);
+    border-radius: 10px;
+}
+
+.assessment-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #8b8d89;
+    border-radius: 20px;
+    /* padding: 20px;
+    background-color: rgb(251, 255, 251);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; */
+}
+.assessment-content img {
+    width: 150px;
+    border-radius: 50%;
+    background-color: aliceblue;
+
+}
+.assessment-content h2 {
+    font-size: 3rem;
+    color: #042c14;
+    margin-bottom: 2rem;
+    text-align: center;
+    max-width: 50%;
+    text-decoration: underline;
+}
+
+.assessment-content h3 {
+    font-size: 2rem;
+    color: #1f1702;
+    margin-bottom: 10px;
+}
+
+.assessment-content p {
+    font-size: 28px;
+    font-weight: lighter;
+    color: #333;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.assessment-content .high {
+    font-weight: bold;
+    color: #fde507;
+}
+
+.highbox {
+    font-weight: bold;
+    color: #0dca55;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.tagline-0{
+    font-size: 50px;
+    font-weight: lighter;
+    color: #333;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.large {
+    text-align: right;
+    font-size: 30px;
+}
+
+.module-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-items: center;
+    border-bottom: 2px solid #414240;
+    border-radius: 20px;
+}
+
+.module-item {
+    color:#1c4103;
+    display: inline;
+    
+}
+.module-item li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.module-item li:hover {
+    background-color: #d1ffc6;
+    color: #1c4103;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    width: 30px;
+    border-radius: 50%;
+}

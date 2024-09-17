@@ -1,0 +1,109 @@
+.diabetic-container {
+    margin: 1.5rem;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.diabetic-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.diabetic-container p {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 20px;
+    border-left:4px solid #f39c12;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+}
+
+.diabetic-body{
+    margin: 1.5rem;
+    padding: 20px;
+    background-color: rgb(243, 226, 195);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.diabetic-overview {
+    background-color: rgb(255, 244, 230);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.diabetic-overview h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.diabetic-overview li{
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;   
+    padding: 5px;
+}
+
+.diabetic-topic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 1rem;
+}
+
+.diabetic-topic li{
+    font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    padding: 3px;
+}
+
+.each-diabetic-tipic {
+    border: 2px solid #f39c12;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgb(255, 244, 230);
+}
+
+.each-diabetic-tipic p {
+    font-size: 1.5rem;
+    line-height: 1.1;
+}
+.each-diabetic-tipic h3 {
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+.diabetic-summary {
+    background-color: rgb(255, 244, 230);
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.diabetic-summary li{
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;   
+    padding: 15px;
+    color: #f39c11;
+}
+
+.diabetic-types {
+    background-color: rgb(255, 244, 230);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 1.9rem;
+}
+
+.diabetic-types h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f39c11;
+}
+
+.diabetic-types li{
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;   
+    padding: 15px;
+}

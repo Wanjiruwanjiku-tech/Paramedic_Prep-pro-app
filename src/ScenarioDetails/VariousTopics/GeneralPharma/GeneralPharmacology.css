@@ -1,0 +1,109 @@
+.pharmacology-container {
+    margin: 1.5rem;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pharmacology-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pharmacology-container p {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 20px;
+    border-left:4px solid #f39c12;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+}
+
+.pharmacology-body{
+    margin: 1.5rem;
+    padding: 20px;
+    background-color: rgb(243, 226, 195);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pharmacology-overview {
+    background-color: rgb(255, 244, 230);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.pharmacology-overview h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pharmacology-overview li{
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;   
+    padding: 5px;
+}
+
+.pharmacology-topic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 1rem;
+}
+
+.pharmacology-topic li{
+    font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    padding: 3px;
+}
+
+.each-pharmacology-topic {
+    border: 2px solid #f39c12;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgb(255, 244, 230);
+}
+
+.each-pharmacology-topic p {
+    font-size: 1.5rem;
+    line-height: 1.1;
+}
+.each-pharmacology-topic h3 {
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+.pharmacology-summary {
+    background-color: rgb(255, 244, 230);
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.pharmacology-summary li{
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;   
+    padding: 15px;
+    color: #f39c11;
+}
+
+.pharmacology-types {
+    background-color: rgb(255, 244, 230);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 1.9rem;
+}
+
+.pharmacology-types h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f39c11;
+}
+
+.pharmacology-types li{
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;   
+    padding: 15px;
+}
