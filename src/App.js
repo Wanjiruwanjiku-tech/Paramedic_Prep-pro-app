@@ -29,7 +29,6 @@ import GeneralPharmacology from './ScenarioDetails/VariousTopics/GeneralPharma/G
 function App() {
   return (
         <>
-            <Router>
               <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/login' element={<Login />} />
@@ -57,7 +56,6 @@ function App() {
                 <Route path='/general-pharmacology' element={<GeneralPharmacology />} />
                 <Route path="*" element={<h1>Page Not Found</h1>} />
               </Routes>
-            </Router>
             <Footer />
 
         </>
