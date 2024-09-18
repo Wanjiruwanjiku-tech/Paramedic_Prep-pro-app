@@ -12,7 +12,7 @@ import BasicAdjuncts from './ScenarioDetails/VariousTopics/AirWay/BasicAdjuncts/
 import Advanced from './ScenarioDetails/VariousTopics/AirWay/Advanced/Advanced';
 import AirwayPharma from './ScenarioDetails/VariousTopics/AirWay/AirwayPharma/AirwayPharma';
 import AirwaySpecialPopulation from './ScenarioDetails/VariousTopics/AirWay/AirwaySpecialPopulation/AirwaySpecialPopulation';
-import AirwayComplications from './ScenarioDetails/VariousTopics/AirWay/AirwayComplications/AirwayComplications';
+import AirwayComplications from './ScenarioDetails/VariousTopics/AirWay/AirComp/AirwayComplications';
 import AirwayMonitoringTools from './ScenarioDetails/VariousTopics/AirWay/AirwayMonitoringTools/AirwayMonitoringTools';
 import Cardiac from './ScenarioDetails/VariousTopics/Cardiac/Cardiac';
 import CardiacNextPage from './ScenarioDetails/VariousTopics/Cardiac/CardiacNextPage';
