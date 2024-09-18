@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Paramedic_Prep-pro-app/static/css/main.69c16a93.css",
-    "main.js": "/Paramedic_Prep-pro-app/static/js/main.0d5443ba.js",
+    "main.js": "/Paramedic_Prep-pro-app/static/js/main.871a4e85.js",
     "static/js/453.51037b1e.chunk.js": "/Paramedic_Prep-pro-app/static/js/453.51037b1e.chunk.js",
     "static/media/acs.png": "/Paramedic_Prep-pro-app/static/media/acs.defcceb7198e827b5fb8.png",
     "static/media/obese.png": "/Paramedic_Prep-pro-app/static/media/obese.3b7e2fc821284fc41965.png",
@@ -87,11 +87,11 @@
     "static/media/patientasessment.jpg": "/Paramedic_Prep-pro-app/static/media/patientasessment.c8c9224bc91701784492.jpg",
     "index.html": "/Paramedic_Prep-pro-app/index.html",
     "main.69c16a93.css.map": "/Paramedic_Prep-pro-app/static/css/main.69c16a93.css.map",
-    "main.0d5443ba.js.map": "/Paramedic_Prep-pro-app/static/js/main.0d5443ba.js.map",
+    "main.871a4e85.js.map": "/Paramedic_Prep-pro-app/static/js/main.871a4e85.js.map",
     "453.51037b1e.chunk.js.map": "/Paramedic_Prep-pro-app/static/js/453.51037b1e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69c16a93.css",
-    "static/js/main.0d5443ba.js"
+    "static/js/main.871a4e85.js"
   ]
 }
