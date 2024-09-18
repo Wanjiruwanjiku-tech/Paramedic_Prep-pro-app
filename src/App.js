@@ -29,13 +29,6 @@ import GeneralPharmacology from './ScenarioDetails/VariousTopics/GeneralPharma/G
 function App() {
   return (
         <>
-        <html lang="en">
-          <head>
-            <meta charset="UTF-8"/>
-            <meta http-equiv="X-UA-Compatible"content="IE=edge"/>
-            <meta name="viewport"content="width=device-width,initial-scale=1.0"/>
-            <title>Paramedic Prep-Pro</title>
-          </head>
             <Router>
               <Routes>
                 <Route path='/' element={<Home />} />
@@ -62,10 +55,10 @@ function App() {
                 <Route path='/diabetic-emergencies' element={<DiabeticEmergencies />} />
                 <Route path='/allergic-reactions' element={<AllergicReactions />} />
                 <Route path='/general-pharmacology' element={<GeneralPharmacology />} />
+                <Route path="*" element={<h1>Page Not Found</h1>} />
               </Routes>
             </Router>
             <Footer />
-          </html>
 
         </>
   );

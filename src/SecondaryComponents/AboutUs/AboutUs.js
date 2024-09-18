@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Aboutus.css';
-import logo from '../../Assets/images/logo.jpg'
-import logo2 from '../../Assets/images/logo2.jpg'
+import logo from '../../Assets/images/logo.jpg';
+
 const AboutUs = () => {
     return (
         <>
