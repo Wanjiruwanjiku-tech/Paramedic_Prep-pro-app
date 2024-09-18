@@ -6,7 +6,7 @@ const Footer = () => {
         <>
             <footer className="footer">
                 <div className="footer-wavy-bg">
-                    <div class="footer-quotes">
+                    <div className="footer-quotes">
                         <div className="quote-item">
                             <h2>Paramedic Prep-Pro</h2>
                             <p>"The new Learning wave..."</p>
