@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from './Home/Home';
 import Login from './Login/Login';
 import EmergencyList from './EmergencyList/EmergencyList';
@@ -24,6 +24,9 @@ import Shock from './ScenarioDetails/VariousTopics/Bleeding/Shock';
 import DiabeticEmergencies from './ScenarioDetails/VariousTopics/Diabetic/Diabetic';
 import AllergicReactions from './ScenarioDetails/VariousTopics/Allergy/Allergy';
 import GeneralPharmacology from './ScenarioDetails/VariousTopics/GeneralPharma/GeneralPharmacology';
+import Quiz from './Quiz/Quiz';
+import PtQuiz from './Quiz/PtAssesQuiz/PtQuiz';
+import CardiacQuiz from './Quiz/CardiacQuiz/CardiacQuiz';
 
 
 function App() {
@@ -54,6 +57,9 @@ function App() {
                 <Route path='/diabetic-emergencies' element={<DiabeticEmergencies />} />
                 <Route path='/allergic-reactions' element={<AllergicReactions />} />
                 <Route path='/general-pharmacology' element={<GeneralPharmacology />} />
+                <Route path='/quiz' element={<Quiz />} />
+                <Route path='/patient-quiz' element={<PtQuiz />} />
+                <Route path='/cardiac-quiz' element={<CardiacQuiz />} />
                 <Route path="*" element={<h1>Page Not Found</h1>} />
               </Routes>
             <Footer />

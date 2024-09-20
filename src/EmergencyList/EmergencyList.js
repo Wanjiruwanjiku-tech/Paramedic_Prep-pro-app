@@ -94,7 +94,8 @@ const EmergencyList = () => {
                 break;
             default:
                 break;
-        }
+        };
+        
     };
     return (
 
@@ -115,6 +116,7 @@ const EmergencyList = () => {
                 <h1>TOPICS.</h1>
                 <p>Start your Learning Journey Today... </p>
             </div>
+            <StartQuiz />
             <div className="emergency-list">
                 
                 <div className="emergency-grid">
@@ -133,5 +135,23 @@ const EmergencyList = () => {
         </>
     );
 };
+const StartQuiz = () => {
+    const navigate = useNavigate();
+    const handleStartQuiz = () => {
+        navigate('/quiz');
+    }
 
+    return (
+        <>
+            <div className="">
+                <button className='nav-btn' onClick={handleStartQuiz}>
+                    <span>Take a Quiz</span>
+                    <svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                        <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0"/>
+                    </svg>
+                </button>
+            </div>
+        </>
+    )
+}
 export default EmergencyList;

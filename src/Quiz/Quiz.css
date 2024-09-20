@@ -1,0 +1,38 @@
+.quiz-container {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 30px;
+}
+
+.quiz-container h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: rgb(26, 1, 1);
+}
+
+.quiz-container p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: rgb(39, 37, 37);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.quiz-items {
+    margin: 3rem;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.each-quiz-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.each-quiz-item {
+    border: 2px solid black;
+    box-shadow: wheat;
+    border-radius: 30px;
+    padding: 30px;
+}
