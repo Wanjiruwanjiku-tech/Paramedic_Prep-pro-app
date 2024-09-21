@@ -214,3 +214,97 @@ p {
     font-weight: lighter;
     font-family: 'Arial', sans-serif;
 }
+
+/* RESPONSIVE DESIGN */
+/* Large devices (max-width: 1200px) */
+@media (max-width: 1200px) {
+    .hero-text {
+        font-size: 1.3rem;
+    }
+
+    .hero-section {
+        padding: 40px;
+    }
+
+    .navbar {
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .student-image {
+        width: 180px;
+    }
+}
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .student-image {
+        width: 160px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+/* Mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .hero-text {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .student-image {
+        width: 140px;
+    }
+
+    .search-bar input {
+        font-size: 16px;
+    }
+
+    .get-started-button {
+        font-size: 14px;
+        padding: 0 15px;
+        height: 40px;
+    }
+}

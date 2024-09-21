@@ -27,11 +27,16 @@ import GeneralPharmacology from './ScenarioDetails/VariousTopics/GeneralPharma/G
 import Quiz from './Quiz/Quiz';
 import PtQuiz from './Quiz/PtAssesQuiz/PtQuiz';
 import CardiacQuiz from './Quiz/CardiacQuiz/CardiacQuiz';
+import BurnQuiz from './Quiz/BurnQuiz/BurnQuiz';
+import DiabetesQuiz from './Quiz/DMQuiz/DMQuiz';
+import PharmaQuiz from './Quiz/PharmaQuiz/PharmaQuiz';
 
 
 function App() {
   return (
         <>
+          <div className="container">
+          <div className="text-container">
               <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/login' element={<Login />} />
@@ -60,9 +65,14 @@ function App() {
                 <Route path='/quiz' element={<Quiz />} />
                 <Route path='/patient-quiz' element={<PtQuiz />} />
                 <Route path='/cardiac-quiz' element={<CardiacQuiz />} />
-                <Route path="*" element={<h1>Page Not Found</h1>} />
+                <Route path='/burns-quiz' element={<BurnQuiz />} />
+                <Route path='/diabetes-quiz' element={<DiabetesQuiz />} />
+                <Route path='/genpharma-quiz' element={<PharmaQuiz />} />
+                <Route path="*" element={<><h2>PAGE NOT FOUND</h2><h2>CAUSE...</h2><h1>I'm Slim Shady, yes I'm the real Shady, All you other slim Shadys are just immitating, SO won't the real Slim Shady please stand up!!</h1></>} />
               </Routes>
             <Footer />
+            </div>
+            </div>
 
         </>
   );

@@ -5,6 +5,20 @@
     border-radius: 20px;
 }
 
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 20px 0;
+    }
+    .footer h2 {
+        font-size: 1.5rem;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+      
+    
+}
+
 .footer-wavy-bg {
     background: linear-gradient(135deg, rgb(15, 243, 148) 50%, #0ee768 50%);
     padding: 40px 0;
